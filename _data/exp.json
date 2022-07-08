@@ -12,28 +12,8 @@
             },
             {
                 "title": "Battle Ship",
-                "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
-            }
-        ]
-    },
-    {
-        "company": "Microsoft",
-        "company_location": "Vancouver, Canada",
-        "role": "Software Engineer",
-        "team": "OneNote",
-        "time_duration": "Nov 2014 - May 2016",
-        "details": [
-            {
-                "title": "Embedded Videos and Web Content",
-                "description": "Worked on adding ability on OneNote to host web content, making sure it is backwards compatible. Implemented features to make handling and editing web content on the OneNote page easier. Added support for this feature on OneNote web app."
-            },
-            {
-                "title": "Merged Cells for Tables",
-                "description": "Added support for spanned cells for tables in OneNote, keeping in mind backwards compatibility. Implemented these capabilities in OneNote web app."
-            },
-            {
-                "title": "Realtime Ink",
-                "description": "As a ramp up project, prototyped ink collaboration using SignalR web-sockets. Worked on experimenting load and delay with multiple inputs in realtime."
+                "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version.",
+                "description": "hi"
             }
         ]
     },
