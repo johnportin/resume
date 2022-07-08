@@ -1,26 +1,20 @@
 [
     {
-        "name": "Kumar Pallav",
-        "website": "http://kumarpallav.com",
-        "email": "me@kumarpallav.com",
-        "email2": "pforpallav@gmail.com",
-        "phone": "+1-206-910-0006",
-        "linkedin":"",
+        "name": "John Portin",
+        "website": "http://github.com/johnportin",
+        "email": "john.michael.portin@gmail.com",
+        "email2": "john.portin@ku.edu",
+        "phone": "971-506-9355",
+        "linkedin":"www.linkedin.com/in/johnportin",
         "languages": [
             {
-                "language": "C++"
-            },
-            {
-                "language": "CSharp"
+                "language": "Python"
             },
             {
                 "language": "JavaScript"
             },
             {
-                "language": "Java"
-            },
-            {
-                "language": "C"
+                "language": "C++"
             }
         ],
         "technologies": [
@@ -28,10 +22,7 @@
                 "technology": "NodeJs"
             },
             {
-                "technology": "UWP"
-            },
-            {
-                "technology": "Win32"
+                "technology": "MongoDB"
             }
         ]
     }
