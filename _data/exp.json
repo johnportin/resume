@@ -1,18 +1,27 @@
 [
     {
-        "company": "Software Engineering Course",
-        "company_location": "",
-        "role": "",
+        "company": "University of Kansas",
+        "company_location": "Lawrence, KS",
+        "role": "Graduate Teaching Assistant",
         "team": "",
-        "time_duration": "Spring 2021",
+        "time_duration": "Fall 2016 - Spring 2022",
         "details": [
             {
-                "title": "Mental Health Awareness App",
-                "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data synchronized with database, functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js"
-            },
+                "title": "STEM and Business Calculus",
+                "description": "Developed and delivered material to medium sized classes. Designed, adminstered, and graded coordinated exam and quizzes."
+            }
+        ]
+    },
+    {
+        "company": "Johns Hopkins Center for Talented Youth",
+        "company_location": "Los Angeles, California",
+        "role": "Summer Camp Instructor",
+        "team": "",
+        "time_duration": "Summer of 2013, 2016, and 2017",
+        "details": [
             {
-                "title": "Battle Ship",
-                "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version.",
+                "title": "Cryptology",
+                "description": "Designed and implemented several three-week long courses in Cryptology for middle school aged students. Wrote personalized evaluations for each student focusing on their accomplishments and growth. Ended each session with a parent-instructor conference."
             }
         ]
     }
