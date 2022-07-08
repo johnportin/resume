@@ -11,7 +11,7 @@
                 "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data synchronized with database, functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js"
             },
             {
-                "title": "Battle Ship,
+                "title": "Battle Ship",
                 "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
             }
         ]
