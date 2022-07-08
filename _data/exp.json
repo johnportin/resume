@@ -1,22 +1,18 @@
 [
     {
-        "company": "Microsoft",
-        "company_location": "Redmond, WA",
-        "role": "Software Engineer",
-        "team": "OneNote",
-        "time_duration": "Jun 2016 - Present",
+        "company": "Software Engineering Course",
+        "company_location": "",
+        "role": "",
+        "team": "",
+        "time_duration": "Spring 2021",
         "details": [
             {
-                "title": "Magic Ink and Ink Lookup",
-                "description": "Worked on recognizing ink strokes into words (using onboard IA) and recognizing keywords/entities given the context (using custom entity recognition service). Implemented accumulation of images or interactive widgets (from various online sources) related to the keyword, which could be inserted onto the Whiteboard canvas."
+                "title": "Mental Health Awareness App",
+                "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data synchronized with database, functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js"
             },
             {
-                "title": "Whiteboard App",
-                "description": "Implemented sharing experience for the new collaboration focused Whiteboard app. Worked on creating and joining a shared session via OneDrive for Business storage. Also added new XAML components to handle dialogs within the app."
-            },
-            {
-                "title": "Content Addins",
-                "description": "Implemented content addins, for OneNote desktop app, as small embedded web apps that would get hosted within managed WebView controls. Created their persistence model and rendering on the desktop application."
+                "title": "Battle Ship,
+                "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
             }
         ]
     },
