@@ -1,12 +1,16 @@
 [
     {
         "title": "Mental Health Awareness App",
-        "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data synchronized with database, functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js"
+        "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data storage and synchronized with MongoDB, multi-panel functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js."
     },
     {
         "title": "Battle Ship",
         "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
     },
+    {
+        "title": "Software Engineering Course",
+        "description": "Passed a course aimed at developing core skills used in software engineering. Focused on both technical and soft skills. We worked in small teams to develop several projects, both greenfield and brownfield. We focused on our groups structure, how work as assigned, and how we worked together. Technical skills used and learned include: design patterns, revision control using Git, design paradigms, and life cycles."
+    }
     {
         "title": "IMA Math-to-Industry Boot Camp",
         "description": "A summer boot camp aimed at taking graduate students from math and training them to be data scientists. Included a crash course in stochastic methods, machine learning, R, and Python. My final project trained an agent using reinforcement learning to efficiently manage incoming orders and disptach orders in a large warehouse."

@@ -22,7 +22,13 @@
         ],
         "technologies": [
             {
-                "technology": "NodeJs"
+                "technology": "Docker"
+            },
+            {
+                "technology": "Git"
+            },
+            {
+                "technology": "NodeJS"
             },
             {
                 "technology": "MongoDB"
