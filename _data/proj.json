@@ -5,7 +5,7 @@
     },
     {
         "title": "Battle Ship",
-        "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version.",
+        "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
     },
     {
         "title": "IMA Math-to-Industry Boot Camp",

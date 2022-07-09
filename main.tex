@@ -96,6 +96,13 @@ require("lua/parser.lua")
 	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
+% Print Projects
+%-------------------------------------------
+\section{\href{https://github.com/pforpallav}{Projects}}
+  \resumeSubHeadingListStart
+    \directlua{printProjItems("_data/proj.json")}
+  \resumeSubHeadingListEnd
+
 % Print Experience
 %-------------------------------------------
 \section{Experience}
@@ -103,12 +110,7 @@ require("lua/parser.lua")
   	\directlua{printExpItems("_data/exp.json")}
   \resumeSubHeadingListEnd
 
-% Print Projects
-%-------------------------------------------
-\section{\href{https://github.com/pforpallav}{Projects}}
-  \resumeSubHeadingListStart
-    \directlua{printProjItems("_data/proj.json")}
-  \resumeSubHeadingListEnd
+
   
 % Print Skills
 %-------------------------------------------
