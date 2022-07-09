@@ -15,6 +15,9 @@
             },
             {
                 "language": "C++"
+            },
+            {
+                "language": "Macaulay2"
             }
         ],
         "technologies": [
