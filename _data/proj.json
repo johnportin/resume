@@ -1,18 +1,18 @@
 [
     {
         "title": "Mental Health Awareness App",
-        "description": "Developed an app using the MERN stack and Expo. Main features included: users and user management, user data storage and synchronized with MongoDB, multi-panel functional user inferface, integration with Tumblr API, AI based recommendation system with Tensorflow.js."
+        "description": "Lead a team to develop a mental health awareness application. Used the MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo to develop a cross-platform application. Designed an easy to navigate and expandable user interface. Prioritized user secutify by adding encryption to user data. Integrated with Tumblr API to match users with content selected by a recommendation system with TensorflowJS."
     },
     {
         "title": "Battle Ship",
-        "description": "Took over, refactored, and cleaned up an existing implementation of BattleShip. Converted the user interface to a GUI from CLI. Added graphics using PyGame. Implemented additional functionality building on the previous version."
+        "description": "Collaborated in a team to developed two version of Battle Ship. Implemented a JS/CSS/HTML version from scratch. Designed and implemented game logic. Refactored code from another team's project. Updated user interface from CLI to GUI use PyGame. Implemented computer controlled bots for single player gameplay."
     },
     {
-        "title": "Software Engineering Course",
-        "description": "Passed a course aimed at developing core skills used in software engineering. Focused on both technical and soft skills. We worked in small teams to develop several projects, both greenfield and brownfield. We focused on our groups structure, how work as assigned, and how we worked together. Technical skills used and learned include: design patterns, revision control using Git, design paradigms, and life cycles."
-    },
-    {
-        "title": "IMA Math-to-Industry Boot Camp",
-        "description": "A summer boot camp aimed at taking graduate students from math and training them to be data scientists. Included a crash course in stochastic methods, machine learning, R, and Python. My final project trained an agent using reinforcement learning to efficiently manage incoming orders and disptach orders in a large warehouse."
+        "title": "Warehouse Scheduling",
+        "description": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock in a large warehouse. Implemented Q-learning algorithm to train dispatcher. Improved efficiency over greedy based approaches by 20%"
     }
+    // {
+    //     "title": "IMA Math-to-Industry Boot Camp",
+    //     "description": "A summer boot camp aimed at taking graduate students from math and training them to be data scientists. Included a crash course in stochastic methods, machine learning, R, and Python. My final project trained an agent using reinforcement learning to efficiently manage incoming orders and disptach orders in a large warehouse."
+    // }
 ]
