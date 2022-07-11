@@ -98,9 +98,16 @@ require("lua/parser.lua")
 
 % Print Projects
 %-------------------------------------------
-\section{\href{https://github.com/pforpallav}{Projects}}
+\section{\href{https://github.com/pforpallav}{Software Projects}}
   \resumeSubHeadingListStart
     \directlua{printProjItems("_data/proj.json")}
+  \resumeSubHeadingListEnd
+  
+% Print Research
+%-------------------------------------------
+\section{\href{https://github.com/pforpallav}{Research Projects}}
+  \resumeSubHeadingListStart
+    \directlua{printProjItems("_data/research.json")}
   \resumeSubHeadingListEnd
 
 % Print Experience
