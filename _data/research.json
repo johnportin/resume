@@ -5,6 +5,6 @@
     }, 
     {
         "title": "Linearly Presented Ideals",
-        "description": "Investigated properties of primary monomial ideals with linear presentation. Extensively used Macaulay2 to visualize ideals and brute force calculations in lower dimension."
+        "description": "Investigated properties of primary monomial ideals with linear presentation. Extensively used Macaulay2 and Python to visualize and test conjectures. Obtained structural results concerning linearly presented primary monomial ideals and applied such results to hypergraphs and socle degree."
     }
 ]
