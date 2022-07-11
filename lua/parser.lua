@@ -19,6 +19,21 @@ function printEduItems(file)
   end
 end
 
+function printTestItems(file)
+  local json = getJsonFromFile(file)
+  for key, value in pairs(json) do 
+    tex.print("\\testEntry")
+    tex.print("{" .. value['title'] .. "}")
+
+    tex.print("\\resumeItemListStart")
+    for key, value in pairs(value["points"]) do 
+      tex.print("\\resumeItem")
+      tex.print("{" .. value["point"] .. "}")
+    end
+    tex.print("\\resumeItemListEnd")
+  end
+end
+
 function printExpItems(file)
   local json = getJsonFromFile(file)
   for key, value in pairs(json) do

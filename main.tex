@@ -68,6 +68,13 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\testEntry}[1]{
+  \vspace{-1pt}
+    \item{
+      \textbf{#1}
+    }
+}
+
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
 
 \renewcommand{\labelitemii}{$\circ$}
@@ -115,6 +122,13 @@ require("lua/parser.lua")
 \section{Experience}
   \resumeSubHeadingListStart
   	\directlua{printExpItems("_data/exp.json")}
+  \resumeSubHeadingListEnd
+
+% Print Test
+%-------------------------------------------
+\section{Test Place}
+  \resumeSubHeadingListStart
+    \directlua{printTestItems("_data/test.json")}
   \resumeSubHeadingListEnd
 
 
