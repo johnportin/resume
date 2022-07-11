@@ -27,7 +27,7 @@ function printTestItems(file)
 
     tex.print("\\resumeItemListStart")
     for key, value in pairs(value["points"]) do 
-      tex.print("\\resumeItem")
+      tex.print("\\testItem")
       tex.print("{" .. value["point"] .. "}")
     end
     tex.print("\\resumeItemListEnd")
