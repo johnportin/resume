@@ -1,14 +1,17 @@
-{
-    "title": "Test Heading",
-    "points": [
-        {
-            "point": "bullet 1"
-        },
-        {
-            "point": "bullet 2"
-        },
-        {
-            "point": "bullet 3"
-        }
-    ]
-}
+
+[
+    {
+        "title": "Test Heading",
+        "points": [
+            {
+                "point": "bullet 1"
+            },
+            {
+                "point": "bullet 2"
+            },
+            {
+                "point": "bullet 3"
+            }
+        ]
+    }
+]
