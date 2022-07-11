@@ -19,15 +19,15 @@ function printEduItems(file)
   end
 end
 
-function printTestItems(file)
+function printBulletedEntry(file)
   local json = getJsonFromFile(file)
   for key, value in pairs(json) do 
-    tex.print("\\testEntry")
+    tex.print("\\resumeHeadingEntry")
     tex.print("{" .. value['title'] .. "}")
 
     tex.print("\\resumeItemListStart")
     for key, value in pairs(value["points"]) do 
-      tex.print("\\testItem")
+      tex.print("\\resumeBulletEntry")
       tex.print("{" .. value["point"] .. "}")
     end
     tex.print("\\resumeItemListEnd")

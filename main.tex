@@ -68,14 +68,14 @@
     \end{tabular*}\vspace{-5pt}
 }
 
-\newcommand{\testEntry}[1]{
+\newcommand{\resumeHeadingEntry}[1]{
   \vspace{-1pt}
     \item{
       \textbf{#1} 
     } \vspace{-5pt}
 }
 
-\newcommand{\testItem}[1]{
+\newcommand{\resumeBulletEntry}[1]{
   \item{
   \small #1 \vspace{-2pt}
   }
@@ -113,14 +113,14 @@ require("lua/parser.lua")
 %-------------------------------------------
 \section{\href{https://github.com/pforpallav}{Software Projects}}
   \resumeSubHeadingListStart
-    \directlua{printProjItems("_data/proj.json")}
+    \directlua{printBulletedEntry("_data/proj.json")}
   \resumeSubHeadingListEnd
   
 % Print Research
 %-------------------------------------------
 \section{\href{https://github.com/pforpallav}{Research Projects}}
   \resumeSubHeadingListStart
-    \directlua{printProjItems("_data/research.json")}
+    \directlua{printBulletedEntry("_data/research.json")}
   \resumeSubHeadingListEnd
 
 % Print Experience
@@ -134,7 +134,7 @@ require("lua/parser.lua")
 %-------------------------------------------
 \section{Test Place}
   \resumeSubHeadingListStart
-    \directlua{printTestItems("_data/test.json")}
+    \directlua{printBulletedEntry("_data/test.json")}
   \resumeSubHeadingListEnd
 
 

@@ -1,14 +1,52 @@
 [
     {
         "title": "Mental Health Awareness App",
-        "description": "Lead a team to develop a mental health awareness application. Used the MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo to develop a cross-platform application. Designed an easy to navigate and expandable user interface. Prioritized user secutify by adding encryption to user data. Integrated with Tumblr API to match users with content selected by a recommendation system with TensorflowJS."
+        "points": [
+            {
+                "point": "Lead a team to develop a mental health awareness application"
+            },
+            {
+                "point": "Cross-platform development using MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo"
+            },
+            {
+                "point": "Implemented an easy to navigate user-interface and basic user security with hasing."
+            },
+            {
+                "point": "Integrated with Tumblr API and implemented a recommendation system with TensorflowJS to provide user with user-tailored responses."
+            }
+        ]
     },
     {
         "title": "Battle Ship",
-        "description": "Collaborated in a team to developed two version of Battle Ship. Implemented a JS/CSS/HTML version from scratch. Designed and implemented game logic. Refactored code from another team's project. Updated user interface from CLI to GUI use PyGame. Implemented computer controlled bots for single player gameplay."
+        "points": [
+            {
+                "point": "Collabotred in a small team to develop two versions of Battle Ship using JS/CSS/HTML and PyGame."
+            },
+            {
+                "point": "Designed and implemented game logic using JavaScript. "
+            },
+            {
+                "point": "Refactored code and implemented new features to existing command-line version of BattleShip. Updated from CLI to GUI using PyGame."
+            },
+            {
+                "point": "Implemented multiple difficulties of computer controlled bots for single player gameplay"
+            }
+        ]
     },
     {
         "title": "Warehouse Scheduling",
-        "description": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock in a large warehouse. Implemented Q-learning algorithm to train dispatcher. Improved efficiency over greedy based approaches by 20\\%."
+        "points": [
+            {
+                "point": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, an stock in a large warehouse"
+            },
+            {
+                "point": " Implemented Q-learning algorithm to train dispatcher."
+            },
+            {
+                "point": "Improved efficiency over reedy based approaches by 20\\%."
+            }
+        ]
     }
 ]
+
+

@@ -1,10 +1,29 @@
 [
     {
         "title": "Threshold Properties of Monomial Ideals",
-        "description": "Investigated threshold properties of monomial ideals.  Obtained nontrivial bounds for pojective dimension. Used Maculay2 (an algebraic research language) to search for and test conjectures."
-    }, 
+        "points": [
+            {
+                "point": "Obtained nontrivla bounds for projective dimension based on the minimal number of generators of an ideal."
+            },
+            {
+                "point": "Used Macaulay2 to search for and test conjectures. Made extensive use of MonomialOrbits.m2 and RandomMonomialIdeals.m2 packages."
+            }
+        ]
+    },
     {
         "title": "Linearly Presented Ideals",
-        "description": "Investigated properties of primary monomial ideals with linear presentation. Extensively used Macaulay2 and Python to visualize and test conjectures. Obtained structural results concerning linearly presented primary monomial ideals and applied such results to hypergraphs and socle degree."
+        "points": [
+            {
+                "point": "Investigated properties of linearly presented primary monomial ideals."
+            },
+            {
+                "point": "Used Macaulay2 and Python to visualize and test conjectures relating to structural properties of such ideals."
+            },
+            {
+                "point": "Obtained structure results about such ideals in low dimension and applied results to hypergraphs and socle degree."
+            }
+        ]
     }
 ]
+
+
