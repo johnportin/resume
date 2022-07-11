@@ -1,6 +1,10 @@
 [
     {
-        "title": "Math Research",
-        "description": "I didn't really do anything, but oh well. PhD in coming."
+        "title": "Threshold Properties of Monomial Ideals",
+        "description": "Investigated threshold properties of monomial ideals.  Obtained nontrivial bounds for pojective dimension. Used Maculay2 (an algebraic research language) to search for and test conjectures."
+    }, 
+    {
+        "title": "Linearly Presented Ideals",
+        "description": "Investigated properties of primary monomial ideals with linear presentation. Extensively used Macaulay2 to visualize ideals and brute force calculations in lower dimension."
     }
 ]
