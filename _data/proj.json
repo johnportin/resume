@@ -3,16 +3,16 @@
         "title": "Mental Health Awareness App",
         "points": [
             {
-                "point": "Lead a team to develop a mental health awareness application"
+                "point": "Lead a team of five to develop a mental health awareness application"
             },
             {
                 "point": "Cross-platform development using MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo"
             },
             {
-                "point": "Implemented an easy to navigate user-interface and basic user security with hasing."
+                "point": "Implemented an easy to navigate user-interface and basic user features and security via hasing."
             },
             {
-                "point": "Integrated with Tumblr API and implemented a recommendation system with TensorflowJS to provide user with user-tailored responses."
+                "point": "Integrated with Tumblr API and TensorflowJS to provide users an individualized experience."
             }
         ]
     },
@@ -23,10 +23,10 @@
                 "point": "Collabotred in a small team to develop two versions of Battle Ship using JS/CSS/HTML and PyGame."
             },
             {
-                "point": "Designed and implemented game logic using JavaScript. "
+                "point": "Designed and implemented web-app version from scratch, primarly working on the game logic."
             },
             {
-                "point": "Refactored code and implemented new features to existing command-line version of BattleShip. Updated from CLI to GUI using PyGame."
+                "point": "Refactored and implemented new features to existing version of BattleShip. Updated from CLI to GUI using PyGame."
             },
             {
                 "point": "Implemented multiple difficulties of computer controlled bots for single player gameplay"
@@ -37,13 +37,13 @@
         "title": "Warehouse Scheduling",
         "points": [
             {
-                "point": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, an stock in a large warehouse"
+                "point": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock."
             },
             {
-                "point": " Implemented Q-learning algorithm to train dispatcher."
+                "point": " Implemented the Q-learning algorithm to train dispatcher."
             },
             {
-                "point": "Improved efficiency over reedy based approaches by 20\\%."
+                "point": "Improved efficiency over reedy based approaches by 20\\% with respect to employee downtime and total time used."
             }
         ]
     }
