@@ -6,7 +6,7 @@
                 "point": "Obtained nontrivla bounds for projective dimension based on the minimal number of generators of an ideal."
             },
             {
-                "point": "Used Macaulay2 to search for and test conjectures. Made extensive use of MonomialOrbits.m2 and RandomMonomialIdeals.m2 packages."
+                "point": "Made extensive use of Macaulay2's MonomialOrbits and RandomMonomialIdeals packages."
             }
         ]
     },
@@ -17,11 +17,12 @@
                 "point": "Investigated properties of linearly presented primary monomial ideals."
             },
             {
-                "point": "Used Macaulay2 and Python to visualize and test conjectures relating to structural properties of such ideals."
+                "point": "Obtained structure results about such ideals in low dimension and applied results to hypergraphs and socle degree."
             },
             {
-                "point": "Obtained structure results about such ideals in low dimension and applied results to hypergraphs and socle degree."
+                "point": "Visualized monomials using Python and tested conjectures relating to structural properties of such ideals."
             }
+            
         ]
     }
 ]
