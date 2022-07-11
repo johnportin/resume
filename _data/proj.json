@@ -9,6 +9,6 @@
     },
     {
         "title": "Warehouse Scheduling",
-        "description": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock in a large warehouse. Implemented Q-learning algorithm to train dispatcher. Improved efficiency over greedy based approaches by 20%"
+        "description": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock in a large warehouse. Implemented Q-learning algorithm to train dispatcher. Improved efficiency over greedy based approaches by 20%."
     }
 ]
