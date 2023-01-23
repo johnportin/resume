@@ -2,8 +2,14 @@
     {
         "school": "University of Kansas",
         "school_location": "Lawrence, KS",
-        "degree": "PhD candidate in Mathematics (expected winter 2022), MA in Mathematics",
-        "time_period": "Aug 2016 - Present"
+        "degree": "PhD candidate in Mathematics (expected Summer 2023)",
+        "time_period": "Aug 2018 - Present"
+    },
+    {
+        "school": "University of Kansas",
+        "school_location": "Lawrence, KS",
+        "degree": "Masters of Arts in Mathematics",
+        "time_period": "Aug 2016 - Aug 2018"
     },
     {
         "school": "Linfield College",
