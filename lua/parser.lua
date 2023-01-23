@@ -8,6 +8,13 @@ function getJsonFromFile(file)
   return jsonData
 end
 
+function printObjective(file)
+  local json = getJsonFromFile(file)
+    for key, value in pairs(json) do
+      tex.print("{" .. value["objective"] .. "}")
+  end
+end
+
 function printEduItems(file)
   local json = getJsonFromFile(file)
   for key, value in pairs(json) do
