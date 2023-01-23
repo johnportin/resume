@@ -52,10 +52,9 @@ function printExpItems(file)
     tex.print("{" .. value["time_duration"] .. "}")
 
     tex.print("\\resumeItemListStart")
-    for key, value in pairs(value["details"]) do
-      tex.print("\\resumeItem")
-      tex.print("{" .. value["title"] .. "}")
-      tex.print("{" .. value["description"] .. "}")
+    for key, value in pairs(value["points"]) do 
+      tex.print("\\resumeBulletEntry")
+      tex.print("{" .. value["point"] .. "}")
     end
     tex.print("\\resumeItemListEnd")
   end
