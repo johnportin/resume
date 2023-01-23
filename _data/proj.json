@@ -43,7 +43,7 @@
                 "point": "Trained reinforcement learning agent using Q learning. Developed novel methods to reduce the training space."
             },
             {
-                "point": "Improved efficiency over reedy based approaches by 20\\% with respect to employee downtime and total time used."
+                "point": "Improved theoretical efficiency over greedy based approaches by 20\\% with respect to employee downtime and total time used."
             }
         ]
     }
