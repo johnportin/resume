@@ -7,9 +7,6 @@
             },
             {
                 "point": "Proved structure result about the generators of linearly presented ideals in low dimension."
-            },
-            {
-                "point": "Forumulated conjectures using Macaulay2 and Python to collect and visualize data."
             }
         ]
     }
