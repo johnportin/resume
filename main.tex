@@ -146,4 +146,19 @@ require("lua/parser.lua")
       }
   \resumeSubHeadingListEnd
 
+% Print Courses
+%-------------------------------------------
+\section{Coursework}
+    \resumeSubHeadingListStart
+        \item{
+            \textbf{Courses}{:
+                \directlua{printList(
+                    "_data/personal.json",
+                    "courses",
+                    "course"
+                )}
+            }
+        }
+    \resumeSubHeadingListEnd
+
 \end{document}
