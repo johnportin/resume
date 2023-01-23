@@ -1,28 +1,16 @@
 [
     {
-        "title": "Threshold Properties of Monomial Ideals",
+        "title": "Properties of Monomial Ideals",
         "points": [
             {
-                "point": "Obtained nontrivla bounds for projective dimension based on the minimal number of generators of an ideal."
+                "point": "Obtained nontrivial bounds for projective dimension based on Betti numbers."
             },
             {
-                "point": "Made extensive use of Macaulay2's MonomialOrbits and RandomMonomialIdeals packages."
+                "point": "Proved structure result about the generators of linearly presented ideals in low dimension."
+            },
+            {
+                "point": "Forumulated conjectures using Macaulay2 and Python to collect and visualize data."
             }
-        ]
-    },
-    {
-        "title": "Linearly Presented Ideals",
-        "points": [
-            {
-                "point": "Investigated properties of linearly presented primary monomial ideals."
-            },
-            {
-                "point": "Obtained structure results about such ideals in low dimension and applied results to hypergraphs and socle degree."
-            },
-            {
-                "point": "Visualized monomials using Python and tested conjectures relating to structural properties of such ideals."
-            }
-            
         ]
     }
 ]
