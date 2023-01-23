@@ -114,29 +114,6 @@ require("lua/parser.lua")
 	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
-% Print Experience
-%-------------------------------------------
-\section{Work Experiences}
-  \resumeSubHeadingListStart
-  	\directlua{printExpItems("_data/exp.json")}
-  \resumeSubHeadingListEnd
-
-% Print Projects
-%-------------------------------------------
-\section{\href{https://github.com/johnportin}{Software Projects}}
-  \resumeSubHeadingListStart
-    \directlua{printBulletedEntry("_data/proj.json")}
-  \resumeSubHeadingListEnd
-  
-% Print Research
-%-------------------------------------------
-\section{Research Projects}
-  \resumeSubHeadingListStart
-    \directlua{printBulletedEntry("_data/research.json")}
-  \resumeSubHeadingListEnd
-
-
-  
 % Print Skills
 %-------------------------------------------
 \section{Programming Skills}
@@ -162,5 +139,30 @@ require("lua/parser.lua")
             }
         }
     \resumeSubHeadingListEnd
+
+% Print Experience
+%-------------------------------------------
+\section{Work Experiences}
+  \resumeSubHeadingListStart
+  	\directlua{printExpItems("_data/exp.json")}
+  \resumeSubHeadingListEnd
+
+% Print Projects
+%-------------------------------------------
+\section{\href{https://github.com/johnportin}{Software Projects}}
+  \resumeSubHeadingListStart
+    \directlua{printBulletedEntry("_data/proj.json")}
+  \resumeSubHeadingListEnd
+  
+% Print Research
+%-------------------------------------------
+\section{Research Projects}
+  \resumeSubHeadingListStart
+    \directlua{printBulletedEntry("_data/research.json")}
+  \resumeSubHeadingListEnd
+
+
+  
+
 
 \end{document}
