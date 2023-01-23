@@ -33,6 +33,17 @@
             {
                 "technology": "MongoDB"
             }
+        ],
+        "courses": [
+            {
+                "course": "Advanced Algorithms (graduate)"
+            },
+            {
+                "course": "Algorithms and Data Structures"   
+            },
+            {
+                "course": "Software Engineering"
+            }
         ]
     }
 ]
