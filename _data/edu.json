@@ -1,15 +1,5 @@
 [
     {
-        "school": "Harvard",
-        "school_location": "Mass",
-        "degrees": [
-            {
-                "degree": "Baller",
-                "time_period": "never and always"
-            }
-        ]
-    },
-    {
         "school": "University of Kansas",
         "school_location": "Lawrence, KS",
         "degrees": [
