@@ -1,5 +1,9 @@
 [
     {
+        "school": "Harvard",
+        "school_location": "Mass"
+    },
+    {
         "school": "University of Kansas",
         "school_location": "Lawrence, KS",
         "degrees": [
@@ -11,8 +15,7 @@
                 "degree": "Masters of Arts, Mathematics",
                 "time_period": "Aug 2016 - Aug 2018"
             }
-        ],
-        ,
+        ]
         
     },
     {
