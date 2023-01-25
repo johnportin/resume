@@ -4,20 +4,16 @@
         "school_location": "Lawrence, KS",
         "degrees": [
             {
-                "degree": "PhD candidate, Mathematics (expected Summer 2023)"
+                "degree": "PhD candidate, Mathematics (expected Summer 2023)",
+                "time_period": "Aug 2018 - Present"
             },
             {
-                "degree": "Masters of Arts, Mathematics"
+                "degree": "Masters of Arts, Mathematics",
+                "time_period": "Aug 2016 - Aug 2018"
             }
         ],
         ,
-        "time_period": "Aug 2018 - Present"
-    },
-    {
-        "school": "University of Kansas",
-        "school_location": "Lawrence, KS",
-        "degree": "Masters of Arts, Mathematics",
-        "time_period": "Aug 2016 - Aug 2018"
+        
     },
     {
         "school": "Linfield College",
