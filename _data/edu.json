@@ -2,7 +2,15 @@
     {
         "school": "University of Kansas",
         "school_location": "Lawrence, KS",
-        "degree": "PhD candidate, Mathematics (expected Summer 2023)",
+        "degrees": [
+            {
+                "degree": "PhD candidate, Mathematics (expected Summer 2023)"
+            },
+            {
+                "degree": "Masters of Arts, Mathematics"
+            }
+        ],
+        ,
         "time_period": "Aug 2018 - Present"
     },
     {
