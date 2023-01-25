@@ -1,7 +1,13 @@
 [
     {
         "school": "Harvard",
-        "school_location": "Mass"
+        "school_location": "Mass",
+        "degrees": [
+            {
+                "degree": "Baller",
+                "time_period": "never and always"
+            }
+        ]
     },
     {
         "school": "University of Kansas",
