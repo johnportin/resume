@@ -14,21 +14,6 @@
         ]
     },
     {
-        "title": "Battle Ship",
-        "points": [
-            {
-                "point": "Collaborated in a small team to develop the game of Battle Ship using JS/CSS/HTML."
-            },
-            {
-                "point": "Implemented new features to an already existing copy of the game developed by another team."
-            },
-            {
-                "point": "Implemented computer players with multiple difficulties to enable single-player gameplay."
-            },
-            
-        ]
-    },
-    {
         "title": "Warehouse Scheduling",
         "points": [
             {
