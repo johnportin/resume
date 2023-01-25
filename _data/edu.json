@@ -18,7 +18,12 @@
     {
         "school": "Linfield College",
         "school_location": "McMinnville, Oregon",
-        "degree": "Bachelor of Arts, Mathematics",
-        "time_period": "Aug 2010 - May 2013"
+        "degrees": 
+        [
+            {
+                "degree": "Bachelor of Arts, Mathematics",
+                "time_period": "Aug 2010 - May 2013"
+            }
+        ]
     }
 ]
