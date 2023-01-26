@@ -11,6 +11,14 @@
                 "degree": "Masters of Arts, Mathematics",
                 "time_period": "Aug 2016 - Aug 2018"
             }
+        ],
+        "courses": [
+            {
+                "course": "A"
+            },
+            {
+                "course": "B"
+            }
         ]
         
     },
