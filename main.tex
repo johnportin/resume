@@ -62,9 +62,10 @@
 \newcommand{\resumeEduDegreeEntry}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \hspace{1em}\textit{#1} & #2 \\
+      \hspace{1em} #1 & #2 \\
     \end{tabular*}\vspace{-5pt}
 }
+
 
 \newcommand{\resumeExpEntry}[5]{
   \vspace{-1pt}\item
@@ -120,17 +121,6 @@ require("lua/parser.lua")
 	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
-% Print Skills
-%-------------------------------------------
-\section{Programming Skills}
-  \resumeSubHeadingListStart 
-    \item{
-      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
-      \hfill
-      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
-      }
-  \resumeSubHeadingListEnd
-
 % Print Courses
 %-------------------------------------------
 \section{Coursework}
@@ -146,12 +136,18 @@ require("lua/parser.lua")
         }
     \resumeSubHeadingListEnd
 
-% Print Experience
+% Print Skills
 %-------------------------------------------
-\section{Work Experiences}
-  \resumeSubHeadingListStart
-  	\directlua{printExpItems("_data/exp.json")}
+\section{Programming Skills}
+  \resumeSubHeadingListStart 
+    \item{
+      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
+      \hfill
+      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
+      }
   \resumeSubHeadingListEnd
+
+
 
 % Print Projects
 %-------------------------------------------
@@ -160,6 +156,15 @@ require("lua/parser.lua")
     \directlua{printBulletedEntry("_data/proj.json")}
   \resumeSubHeadingListEnd
   
+
+% Print Experience
+%-------------------------------------------
+\section{Work Experiences}
+  \resumeSubHeadingListStart
+  	\directlua{printExpItems("_data/exp.json")}
+  \resumeSubHeadingListEnd
+
+
 % Print Research
 %-------------------------------------------
 \section{Research Projects}
