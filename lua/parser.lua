@@ -26,8 +26,10 @@ function printEduItems(file)
       tex.print("{" .. value["degree"] .. "}")
       tex.print("{" .. value["time_period"] .. "}")
     end
-    tex.print("\\resumeCourseEntry")
-    tex.print("{" .. value["courses"] .. "}")
+    if (value["courses"]) then
+      tex.print("\\resumeCourseEntry")
+      tex.print("{" .. value["courses"] .. "}")
+    end
   end
 end
 
