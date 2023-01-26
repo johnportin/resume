@@ -126,20 +126,21 @@ require("lua/parser.lua")
 	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
-% Print Courses
-%-------------------------------------------
-\section{Coursework}
-    \resumeSubHeadingListStart
-        \item{
-            \textbf{Courses}{:
-                \directlua{printList(
-                    "_data/personal.json",
-                    "courses",
-                    "course"
-                )}
-            }
-        }
-    \resumeSubHeadingListEnd
+% Moved into education
+% % Print Courses
+% %-------------------------------------------
+% \section{Coursework}
+%     \resumeSubHeadingListStart
+%         \item{
+%             \textbf{Courses}{:
+%                 \directlua{printList(
+%                     "_data/personal.json",
+%                     "courses",
+%                     "course"
+%                 )}
+%             }
+%         }
+%     \resumeSubHeadingListEnd
 
 % Print Skills
 %-------------------------------------------
@@ -147,7 +148,7 @@ require("lua/parser.lua")
   \resumeSubHeadingListStart 
     \item{
       \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
-      \hfill
+      \\
       \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
       }
   \resumeSubHeadingListEnd
