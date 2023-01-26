@@ -12,15 +12,7 @@
                 "time_period": "Aug 2016 - Aug 2018"
             }
         ],
-        "courses": [
-            {
-                "course": "A"
-            },
-            {
-                "course": "B"
-            }
-        ]
-        
+        "courses": "A, B, C"
     },
     {
         "school": "Linfield College",
