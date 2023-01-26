@@ -26,15 +26,8 @@ function printEduItems(file)
       tex.print("{" .. value["degree"] .. "}")
       tex.print("{" .. value["time_period"] .. "}")
     end
-    local first = true
-    for key, value in pairs(value["courses"]) do
-      if (first) then
-        tex.print(value["course"])
-        first = false
-      else
-        tex.print(", " .. value["course"])
-      end
-    end
+    tex.print("\\resumeCourseEntry")
+    tex.print("{" .. value["courses"] .. "}")
   end
 end
 
