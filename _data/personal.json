@@ -35,6 +35,9 @@
             },
             {
                 "technology": "Express"
+            },
+            {
+                "technology": "ReactJS"
             }
         ],
         "courses": [
