@@ -1,38 +1,38 @@
 [
-    {
-        "name": "John Portin",
-        "website": "http://github.com/johnportin",
-        "email": "john.michael.portin@gmail.com",
-        "email2": "john.portin@ku.edu",
-        "phone": "971-506-9355",
-        "linkedin":"www.linkedin.com/in/johnportin",
-        "languages": [
-            {
-                "language": "Python"
-            },
-            {
-                "language": "JavaScript"
-            },
-            {
-                "language": "C++"
-            },
-            {
-                "language": "Macaulay2"
-            }
-        ],
-        "technologies": [
-            {
-                "technology": "Docker"
-            },
-            {
-                "technology": "Git"
-            },
-            {
-                "technology": "NodeJS"
-            },
-            {
-                "technology": "MongoDB"
-            }
-        ]
-    }
+  {
+    "name": "John Portin",
+    "website": "johnportin.me",
+    "email": "johnportin@proton.me",
+    "email2": "john.portin@ku.edu",
+    "phone": "971-506-9355",
+    "linkedin": "www.linkedin.com/in/johnportin",
+    "languages": [
+      {
+        "language": "Python"
+      },
+      {
+        "language": "JavaScript"
+      },
+      {
+        "language": "C++"
+      },
+      {
+        "language": "Macaulay2"
+      }
+    ],
+    "technologies": [
+      {
+        "technology": "Docker"
+      },
+      {
+        "technology": "Git"
+      },
+      {
+        "technology": "NodeJS"
+      },
+      {
+        "technology": "MongoDB"
+      }
+    ]
+  }
 ]
