@@ -1,9 +1,8 @@
 [
-<<<<<<< HEAD
   {
     "name": "John Portin",
-    "website": "johnportin.me",
-    "email": "johnportin@proton.me",
+    "website": "http://github.com/johnportin",
+    "email": "john.michael.portin@gmail.com",
     "email2": "john.portin@ku.edu",
     "phone": "971-506-9355",
     "linkedin": "www.linkedin.com/in/johnportin",
@@ -33,62 +32,24 @@
       },
       {
         "technology": "MongoDB"
+      },
+      {
+        "technology": "Express"
+      },
+      {
+        "technology": "ReactJS"
+      }
+    ],
+    "courses": [
+      {
+        "course": "Advanced Algorithms"
+      },
+      {
+        "course": "Algorithms and Data Structures"
+      },
+      {
+        "course": "Software Engineering"
       }
     ]
   }
-=======
-    {
-        "name": "John Portin",
-        "website": "http://github.com/johnportin",
-        "email": "john.michael.portin@gmail.com",
-        "email2": "john.portin@ku.edu",
-        "phone": "971-506-9355",
-        "linkedin":"www.linkedin.com/in/johnportin",
-        "languages": [
-            {
-                "language": "Python"
-            },
-            {
-                "language": "JavaScript"
-            },
-            {
-                "language": "C++"
-            },
-            {
-                "language": "Macaulay2"
-            }
-        ],
-        "technologies": [
-            {
-                "technology": "Docker"
-            },
-            {
-                "technology": "Git"
-            },
-            {
-                "technology": "NodeJS"
-            },
-            {
-                "technology": "MongoDB"
-            },
-            {
-                "technology": "Express"
-            },
-            {
-                "technology": "ReactJS"
-            }
-        ],
-        "courses": [
-            {
-                "course": "Advanced Algorithms"
-            },
-            {
-                "course": "Algorithms and Data Structures"   
-            },
-            {
-                "course": "Software Engineering"
-            }
-        ]
-    }
->>>>>>> fda232331b3fecdacdc85469903d631b3a5fad33
 ]
