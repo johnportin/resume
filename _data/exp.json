@@ -8,20 +8,39 @@
         "details": [
             {
                 "title": "STEM and Business Calculus",
-                "description": "Designed and prepared class material including lectures notes, activities, homework questions, quizzes, and exam questions. Directed classtime lectures and groupwork several times a week, in-person and online. Managed a grader who was responsible for meeting deadlines and quality standards."
+                "description": "Designed and prepared class material including lectures notes, activities, homework, quizzes, and exam questions. Directed classtime lectures and groupwork several times a week, in-person and online. Managed a grader who was responsible for meeting deadlines and quality standards."
+            }
+        ],
+        "points": [
+            {
+                "point": "Designed and prepared class material including lecture notes, presentations, activities, homework, and exams."
+            },
+            {
+                "point": "Presented material in traditional lecture and reverse-classroom environments."
+            },
+            {
+                "point": "Managed grader's time and quality of work. Communicated constructive feedback for helping them manage their efforts."
             }
         ]
     },
     {
         "company": "Johns Hopkins Center for Talented Youth",
         "company_location": "Los Angeles, California",
-        "role": "Summer Camp Instructor",
+        "role": "Course Instructor and Assistant",
         "team": "",
         "time_duration": "Summer of 2013, 2016, and 2017",
         "details": [
             {
                 "title": "Cryptology",
                 "description": "Designed and implemented several three-week long courses in Cryptology for middle school aged students. Created experiences that were challenging and fun for a wide range of abilities. Worked with a diverse set of staff and students to help make their summer camp a positive experience. Wrote personalized evaluations for each student focusing on their accomplishments and growth. Ended each session with a parent-instructor conference."
+            }
+        ],
+        "points": [
+            {
+                "point": "Designed, implemented, and instructed several three-week long courses in Cryptology for middle school age students."
+            },
+            {
+                "point": "Wrote personalized evaluations for each student focusing on their accomplishments and growth."
             }
         ]
     }
