@@ -12,30 +12,5 @@
         "point": "Describe the relationship between the ideal structure of monoidal ideals and the integer partition lattice."
       }
     ]
-  },
-  {
-    "title": "Threshold Properties of Monomial Ideals",
-    "points": [
-      {
-        "point": "Obtained nontrivial bounds for projective dimension based on the minimal number of generators of an ideal."
-      },
-      {
-        "point": "Made extensive use of Macaulay2's MonomialOrbits and RandomMonomialIdeals packages."
-      }
-    ]
-  },
-  {
-    "title": "Linearly Presented Ideals",
-    "points": [
-      {
-        "point": "Investigated properties of linearly presented primary monomial ideals."
-      },
-      {
-        "point": "Obtained structure results about such ideals in low dimension and applied results to hypergraphs and socle degree."
-      },
-      {
-        "point": "Visualized monomials using Python and tested conjectures relating to structural properties of such ideals."
-      }
-    ]
   }
 ]
