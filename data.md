@@ -11,13 +11,17 @@
 
 1. Passionate, energetic, and curious. Ready to apply my strong analytical skills to tackle cutting-edge problems as a Software Developer with a dynamic and driven team.
 
+2. I am a mathematician seeking a career transition to software development. Detail-oriented and passionate about problem-solving, I strive to utilize my interdisciplinary skills to contribute to cutting-edge software solutions that foster innovation and provide tangible value.
+
+3. Highly motivated and accomplished individual with a Ph.D. in Mathematics, complemented by extensive self-study and practical experience in software development. Equipped with a solid foundation in mathematical modeling, algorithm design, and data analysis, I am seeking a challenging career opportunity in software engineering. With a keen eye for detail and a passion for problem-solving, I aim to leverage my interdisciplinary skills to contribute to the development of cutting-edge software solutions that drive innovation and deliver tangible value. My ability to bridge the gap between complex mathematical concepts and software implementation allows me to approach challenges from a unique perspective, ensuring efficient and robust solutions. As a dedicated learner and adaptable professional, I am eager to collaborate with talented teams, embrace new technologies, and make a significant impact in the field of software engineering.
+
 # Education
 
 1. **University of Kansas**
 
    - PhD & MA in Mathematics
    - GPA: 3.46
-   - Aug. 2014 - Sep. 2023
+   - Aug. 2016 - Sep. 2023
    - **Courses**: Advanced Algorithms, Algorithms & Data Structures, Graph Theory, Software Engineering
 
 2. **Linfield College**
