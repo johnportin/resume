@@ -48,11 +48,20 @@
    - Implemented seamless data persistence throughout the entire semester by integrating with MongoDB, ensuring accurate and up-to-date information.
    - Designed and implemented a robust reporting feature to facilitate effortless grade generation and streamline administrative processes.
 
-# Courses
+# Courses & Certificates
 
 1. **IMA: Math-to-Industry Boot Camp**
+
    - **Dates**: June 2020 - July 2020
    - **Description**: 8-week intensive program focused on developing industry-relevant skills, including data analysis, and machine learning.
    - **Project**: Warehouse Scheduling Optimization
      - Trained a reinforcement learning agent using Q learning and developed innovative techniques to reduce the training space size.
      - Improved theoretical efficiency by 20% compared to greedy-based approaches in terms of employee downtime and total time.
+
+2. **Meta Front-End Developer Certificate**
+   - **Issuer**: Coursera
+   - **Issue Date**: Apr. 2023
+   - **Description**: Multicourse program focused on front-end development and design, including HTML, CSS, and JavaScript. Design was taught using Figma, and focused on UI/UX design principles. Software engineering principles were taught including best practices for coding and Git.
+   - **Project**:
+     - **Name**: Little Lemon Website
+     - **Description**: A website for a fake restaurant named Little Lemon. Included a mobile-first landing page, along with table reservations and contact forms. The website was designed using Figma, and implemented using ReactJS.
