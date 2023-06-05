@@ -2,13 +2,27 @@
     {
         "school": "University of Kansas",
         "school_location": "Lawrence, KS",
-        "degree": "PhD candidate in Mathematics (expected winter 2022), MA in Mathematics",
-        "time_period": "Aug 2016 - Present"
+        "degrees": [
+            {
+                "degree": "PhD candidate, Mathematics (expected Summer 2023)",
+                "time_period": "Aug 2018 - Present"
+            },
+            {
+                "degree": "Masters of Arts, Mathematics",
+                "time_period": "Aug 2016 - Aug 2018"
+            }
+        ],
+        "courses": "Software Engineering, Advanced Algorithms, Data Structures and Algorithms, Graph Theory"
     },
     {
         "school": "Linfield College",
         "school_location": "McMinnville, Oregon",
-        "degree": "Bachelor of Arts, Mathematics",
-        "time_period": "Aug 2010 - May 2013"
+        "degrees": 
+        [
+            {
+                "degree": "Bachelor of Arts, Mathematics",
+                "time_period": "Aug 2010 - May 2013"
+            }
+        ]
     }
 ]

@@ -8,14 +8,28 @@ function getJsonFromFile(file)
   return jsonData
 end
 
+function printObjective(file)
+  local json = getJsonFromFile(file)
+    for key, value in pairs(json) do
+      tex.print("{" .. value["objective"] .. "}")
+  end
+end
+
 function printEduItems(file)
   local json = getJsonFromFile(file)
   for key, value in pairs(json) do
     tex.print("\\resumeEduEntry")
     tex.print("{" .. value["school"] .. "}")
     tex.print("{" .. value["school_location"] .. "}")
-    tex.print("{" .. value["degree"] .. "}")
-    tex.print("{" .. value["time_period"] .. "}")
+    for key, value in pairs(value["degrees"]) do
+      tex.print("\\resumeEduDegreeEntry")
+      tex.print("{" .. value["degree"] .. "}")
+      tex.print("{" .. value["time_period"] .. "}")
+    end
+    if (value["courses"]) then
+      tex.print("\\resumeCourseEntry")
+      tex.print("{" .. value["courses"] .. "}")
+    end
   end
 end
 
@@ -45,10 +59,9 @@ function printExpItems(file)
     tex.print("{" .. value["time_duration"] .. "}")
 
     tex.print("\\resumeItemListStart")
-    for key, value in pairs(value["details"]) do
-      tex.print("\\resumeItem")
-      tex.print("{" .. value["title"] .. "}")
-      tex.print("{" .. value["description"] .. "}")
+    for key, value in pairs(value["points"]) do 
+      tex.print("\\resumeBulletEntry")
+      tex.print("{" .. value["point"] .. "}")
     end
     tex.print("\\resumeItemListEnd")
   end
@@ -78,7 +91,7 @@ function printHeading(file)
     tex.print("\\href")
     tex.print("{" .. value["website"] .. "/}")
     tex.print("{" .. value["website"] .. "}")
-    tex.print(" & Mobile : " .. value["phone"] .. "\\\\")
+    tex.print(" & Phone : " .. value["phone"] .. "\\\\")
 
     tex.print("\\end{tabular*}")
   end

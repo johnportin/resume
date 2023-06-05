@@ -1,49 +1,29 @@
 [
-    {
-        "title": "Mental Health Awareness App",
-        "points": [
-            {
-                "point": "Lead a team of five to develop a mental health awareness application"
-            },
-            {
-                "point": "Developed a cross-platform app using MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo"
-            },
-            {
-                "point": "Implemented a user friendly interface, basic user features, and user security features."
-            },
-            {
-                "point": "Integrated with Tumblr API and TensorflowJS to provide users an individualized experience."
-            }
-        ]
-    },
-    {
-        "title": "Battle Ship",
-        "points": [
-            {
-                "point": "Collabotred in a small team to develop two versions of Battle Ship using JS/CSS/HTML and PyGame."
-            },
-            {
-                "point": "Designed and implemented web-app version from scratch, primarly working on the game logic."
-            },
-            {
-                "point": "Refactored and implemented new features to existing version of BattleShip. Updated from CLI to GUI using PyGame."
-            },
-            {
-                "point": "Implemented multiple difficulties of computer controlled bots for single player gameplay"
-            }
-        ]
-    },
-    {
+        {
         "title": "Warehouse Scheduling",
         "points": [
             {
                 "point": "Worked with World Wide Technologies to develop a dispatcher for managing intake, delivery, and stock."
             },
             {
-                "point": "Trained reinforcement learning agent using Q learning. Developed novel methods to reduce the training space."
+                "point": "Trained reinforcement learning agent using Q learning. Developed novel methods to reduce the size of the training space."
             },
             {
-                "point": "Improved efficiency over reedy based approaches by 20\\% with respect to employee downtime and total time used."
+                "point": "Improved theoretical efficiency over greedy based approaches by 20\\% with respect to employee downtime and total time."
+            }
+        ]
+    },
+    {
+        "title": "Mental Health Awareness",
+        "points": [
+            {
+                "point": "Lead a team of five to develop a mental health awareness application to help people track their daily moods and feelings."
+            },
+            {
+                "point": "Developed a cross-platform app using MERN stack (MongoDB, Express, React-Native, NodeJS) and Expo."
+            },
+            {
+                "point": "Integrated with Tumblr API and TensorflowJS to provide users an individualized experience."
             }
         ]
     }

@@ -52,19 +52,31 @@
   }
 }
 
-\newcommand{\resumeEduEntry}[4]{
+\newcommand{\resumeEduEntry}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-5pt}
 }
+
+\newcommand{\resumeEduDegreeEntry}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{1em} #1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeCourseEntry}[1]{
+  \vspace{-1pt}\item
+      \hspace{1em} \textbf{Courses}: \textit{#1} \\
+}
+
 
 \newcommand{\resumeExpEntry}[5]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
-      \textit{#3 $\cdot$ #4} & \textit{#5} \\
+      \textit{#3  #4} & #5 \\
     \end{tabular*}\vspace{-5pt}
 }
 
@@ -102,12 +114,46 @@ require("lua/parser.lua")
 %-------------------------------------------
 \directlua{printHeading("_data/personal.json")}
 
+% Print Objective
+%-------------------------------------------
+\section{Objective}
+    \directlua{printObjective("_data/obj.json")}
+
 % Print Education
 %-------------------------------------------
 \section{Education}
   \resumeSubHeadingListStart
 	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
+
+% Moved into education
+% % Print Courses
+% %-------------------------------------------
+% \section{Coursework}
+%     \resumeSubHeadingListStart
+%         \item{
+%             \textbf{Courses}{:
+%                 \directlua{printList(
+%                     "_data/personal.json",
+%                     "courses",
+%                     "course"
+%                 )}
+%             }
+%         }
+%     \resumeSubHeadingListEnd
+
+% Print Skills
+%-------------------------------------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart 
+    \item{
+      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
+      \\
+      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
+      }
+  \resumeSubHeadingListEnd
+
+
 
 % Print Projects
 %-------------------------------------------
@@ -116,12 +162,6 @@ require("lua/parser.lua")
     \directlua{printBulletedEntry("_data/proj.json")}
   \resumeSubHeadingListEnd
   
-% Print Research
-%-------------------------------------------
-\section{Research Projects}
-  \resumeSubHeadingListStart
-    \directlua{printBulletedEntry("_data/research.json")}
-  \resumeSubHeadingListEnd
 
 % Print Experience
 %-------------------------------------------
@@ -129,16 +169,17 @@ require("lua/parser.lua")
   \resumeSubHeadingListStart
   	\directlua{printExpItems("_data/exp.json")}
   \resumeSubHeadingListEnd
-  
-% Print Skills
+
+
+% Print Research
 %-------------------------------------------
-\section{Programming Skills}
-  \resumeSubHeadingListStart 
-    \item{
-      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
-      \hfill
-      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
-      }
+\section{Research Projects}
+  \resumeSubHeadingListStart
+    \directlua{printBulletedEntry("_data/research.json")}
   \resumeSubHeadingListEnd
+
+
+  
+
 
 \end{document}
